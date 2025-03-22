@@ -1,0 +1,38 @@
+Strateia
+Frontend Backend
+BE:
+models => Models for Article, Video
+config => connect to MongoDB
+controllers => Article.js and Video.js
+basic CRUD, getAll, findById, findOneByIdAndUpdate/Delete
+routes => specifies which http requests are at what endpoints
+server.js
+
+FE:
+pages
+components
+pages:
+  Home, About, Articles, Videos, Contact, Admin (for admin)
+  Home:
+    Latest 4 Videos
+    Latest 4 Articles
+    (HOPEFULLY) Embedded Zoom Webinar link
+  About:
+    Like an about page for a church
+  Articles: 
+    Search bar
+    Dropdown for types/genres?
+    Filtered list of all articles depending on constraints, 
+    else all articles
+  Videos:
+    Same as articles
+  Contact:
+    Small form to reach out to Bill
+    name, email, type, message
+  Admin
+    For bill
+    pull up roster of users
+    site information/metadata
+    able to kick/ban users (from commenting for example)
+    able to give admin privileges
+    

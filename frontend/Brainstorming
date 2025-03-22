@@ -1,0 +1,12 @@
+list of components:
+
+Thumbnail (can use with video and article)
+  A small image accompanied underneath by a Title, an author, and either the start of the description with a trailing "..." in case it's too long
+
+Navbar
+  This will be rendered outside of the routes so it's at the top of every page
+  
+Footer
+  This will display the copyright. Also rendered outside of the routes
+
+ 
