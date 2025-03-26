@@ -1,0 +1,91 @@
+.home-page-parallax {
+  left: 0;
+  text-align: center;
+  overscroll-behavior: none;
+}
+
+
+.flaming-mountain {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.opaque-div {
+  background-color: #000;
+  height: 100%;
+  opacity: 0.3;
+}
+
+.title {
+  margin-top: 22%;
+  font-family: sans-serif;
+  color: white;
+  letter-spacing: 8px;
+  font-weight: 200;
+  font-size: 60px;
+}
+
+.page-text-container {
+  display: flex;
+  background-color: white;
+  height: 100%;
+  color: #1a1a1a;
+  align-items: center;
+  text-align: center;
+}
+
+.page-text-div {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: auto;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 2rem;
+  font-family: sans-serif;
+}
+
+.page-text-subtitle {
+  font-weight: bold;
+  margin: 0;
+}
+
+/* components */
+
+/* Navbar */
+
+.navbar-header {
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 80px;
+  text-align: center;
+  align-items: center;
+  z-index: 5;
+ /* background-image: url("marble-background.jpeg");*/
+ background-color: white; 
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+.navbar-ul {
+  display: flex;
+  flex-direction: row;
+  width: 70vw;
+  justify-content: space-evenly;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.navbar-ul li a {
+  text-decoration: none;
+  color: #4f4f4f;
+}
+
+.navbar-ul li a:hover {
+  
+}
