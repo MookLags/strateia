@@ -4,6 +4,11 @@
   overscroll-behavior: none;
 }
 
+.parallax-image {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
 
 .flaming-mountain {
   width: 100vw;
@@ -81,11 +86,15 @@
   list-style-type: none;
 }
 
+.navbar-ul li a.currLoc {
+  text-decoration: underline;
+}
+
 .navbar-ul li a {
   text-decoration: none;
   color: #4f4f4f;
 }
 
 .navbar-ul li a:hover {
-  
+  text-decoration: underline;  
 }
