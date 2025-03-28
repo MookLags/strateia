@@ -1,3 +1,6 @@
+/* Pages */
+/* home page */
+
 .home-page-parallax {
   left: 0;
   text-align: center;
@@ -57,6 +60,18 @@
 }
 
 /* components */
+
+/* HorizontalScrollContainer */
+
+.horizontal-scroll-container {
+  position: absolute;
+  bottom: 0;
+  border: 2px solid black;
+  height: 135px;
+  width: auto;
+  overflow: none;
+  transform: translate-x(0);
+}
 
 /* Navbar */
 
